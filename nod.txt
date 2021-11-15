@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "enter a number"
+read num
+if [ $num -lt 10 ];
+then
+echo "number is one digit"
+else
+echo "number is two digit"
+fi
+
+output:
+enter a number 
+11
+number two digit
