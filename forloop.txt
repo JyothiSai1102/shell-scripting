@@ -1,0 +1,14 @@
+#!/bin/bash
+for i in 11 12
+do
+ for j in 11 12 13
+ do
+  value=' JyothiSai1102 '
+  echo -n "$value"
+ done
+ echo
+done
+
+output:
+ JyothiSai1102  JyothiSai1102  JyothiSai1102 
+ JyothiSai1102  JyothiSai1102  JyothiSai1102 
