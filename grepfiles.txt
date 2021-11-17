@@ -1,0 +1,13 @@
+
+to find the filenamees in current directory
+
+#!/bin/sh
+#file-poke
+files='f1'
+for i in $files
+do
+ echo -n "$i"
+ grep $i
+done
+
+output: f1 
