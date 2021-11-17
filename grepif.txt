@@ -1,0 +1,11 @@
+#!/bin/sh
+if grep "unix" myfile>/shellscripting
+then
+ echo "unix is there in directory"
+else
+ echo "unix is not there in the directory"
+fi
+
+output(./shell.sh):
+grep: myfile: No such file or directory
+unix is not there in the directory
