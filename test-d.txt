@@ -1,0 +1,11 @@
+#!/bin/sh
+for i in *;do
+ if test -d $i;then
+  echo The file exist and is a directory
+ else
+  echo It is not a directory
+ fi
+done
+
+output:
+It is not a directory
