@@ -1,0 +1,11 @@
+#!/bin/sh
+for i in *;do
+ if test -s $i;then
+  echo the file exist and is longer than 0 bytes
+ else
+  echo file doesnt exist
+ fi
+done
+
+output:
+the file exist and is longer than 0 bytes
