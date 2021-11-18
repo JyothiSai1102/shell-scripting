@@ -1,0 +1,15 @@
+#!/bin/sh
+if grep "unix" myfile>/shellscripting
+then
+ echo "unix is there in directory"
+elif grep "dos" myfile>/shellscripting
+then
+ echo "unix is not present but dos does in the directory"
+else
+ echo "both files are not present in the directory"
+fi
+ 
+output:
+grep: myfile: No such file or directory
+grep: myfile: No such file or directory
+both files are not present in the directory                                                                                             
